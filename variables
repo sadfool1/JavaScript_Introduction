@@ -1,0 +1,12 @@
+//[Variables]//
+var example = true;
+example = 'Israel'; // overwritten 
+console.log(example); // console does this.
+
+
+const example = true;
+example = 'Israel'; // get error 
+console.log(example); // SyntaxError
+// constants cannot be overwritten with values
+
+//If we need to overwrite we use 'let'
