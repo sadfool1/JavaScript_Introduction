@@ -1,4 +1,4 @@
-//[numbers]//	
+// [numbers] //	
 let example = 7.77;
 console.log(example); // javascript only has one number type. which is number
 console.log(typeof example); // result = number
@@ -7,7 +7,7 @@ console.log(parseInt(example)); // get whole number 7
 
 console.log(parseFloat(example)); // get whole value of 7.77 
 
-console.log(example, toFixed(5)); //7.77000 add 5 dec places
+console.log(example, toFixed(5)); // 7.77000 add 5 dec places
 
 console.log(example, toFixed(1)); // round up to 7.8
 
