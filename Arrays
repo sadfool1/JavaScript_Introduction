@@ -1,0 +1,29 @@
+// [Arrays] //
+
+let example1 = [5, 5, 6];
+console.log(example1.length); // 3
+
+
+let example1 = [5, 7, 6];
+
+console.log(example1[0]); // 5
+// similar to python where the list starts at 0
+
+
+
+
+let example1 = [5, 7, 6];
+example1.push(8, 9, 10); // adds element
+example1.pop(); // pops out element
+console.log(example1[0]);
+
+
+example1[0] = 1; // replaces the first element (overwrite)
+
+// say want to iterate across the array
+
+example1.forEach((element)) => {
+    console.lof(element)
+}); // this is similar syntax for python for loop
+   
+
