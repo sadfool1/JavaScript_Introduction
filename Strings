@@ -1,0 +1,16 @@
+//[Strings]//	
+
+let name = "Dylan";	
+console.log(typeof name); // find out what name is. console result 'string'	
+
+
+let firstName = 'Dylan';	
+let lastName = 'Israel';	
+ console.log(firstName + '' + lastName); // concatenation '' give space in between two vars	
+//console result Dyalan Israel 	
+
+console.log(`${firstName} ${lastName}`); // new method called string interpolation	
+console.log(             `${firstName} ${lastName}`.length); // string property, function length to show the length	
+console.log(             `${firstName} ${lastName}`.trim().length); // trims all the spaces and counts the characters	
+console.log(`${firstName} ${lastName}`.toUpperCase()); //change all to upper case or even lower case using toLowerCase()	
+console.log(`${firstName} ${lastName}`.split(' ')); // split this once it detects the space, our value will be an array ["Dylan", "Israel"], if using just split('') it can break each of the letters individually	
