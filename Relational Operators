@@ -45,3 +45,16 @@ console.log(example1 === example2); // === means strictly equals - check for dat
 // > string
 // > true
 // > false
+
+
+// ============================CHALLENGE=============================
+
+let example1 = 5 === 5;
+let example2 = 5 == '5';
+let example3 = 6 != '6';
+let example4 = 7 !== '7';
+
+console.log(example1); // true
+console.log(example2); // true
+console.log(example3); // false
+console.log(example4); // true
