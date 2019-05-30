@@ -1,0 +1,44 @@
+// defined by {} , can take in properties
+
+let example1 = {
+    firstName: 'Dylan', // firstName is key, 'Dylan' is value
+    lastName: 'Israel',
+    address: {
+        city: 'Austin',
+        state: 'Texas'
+    },
+    age: 30,
+    cats: ['Milo', 'Tito', 'Achieles']
+};
+
+console.log(example1.firstName); // produce first name
+console.log(example1.address.city);
+
+example.age (example1.age);
+
+// > 31
+
+// if we want all the keys
+console.log(Object.keys(example1));
+// > ["firstName", "lastName", "address", "age", "cats"]
+
+// if we want values as well
+console.log(Object.values(example1));
+// > ["Dylan", "Israel", {city: "Austin", state: "Texas"}, 31, ["Milo", "Tito", "Achieles"]]
+
+// if we want to ask for a certain key
+console.log(example1.hasOwnProperty('firstName2'));
+// > false as it does now exist.
+
+// ===================================== CHALLENGE ============================================
+
+let example1 = {
+    firstName: 'Dylan'
+};
+
+let example2 = Object.assign({}, example1);
+
+example2.lastName = 'Israel'; // instantiating a new object.
+
+console.log(example1);
+console.log(example2); 
