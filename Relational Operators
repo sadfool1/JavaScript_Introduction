@@ -1,0 +1,47 @@
+let example1 = 10;
+let example2 = 15;
+console.log(example1 >= example2)
+// > false
+
+let example1 = 15;
+let example2 = 15;
+console.log(example1 >= example2)
+// > true
+
+let example1 = 10;
+let example2 = 15;
+console.log(example1 <= example2)
+// > true
+
+let example1 = 10;
+let example2 = 10;
+
+console.log(example1 != example2)
+// > false
+
+let example1 = 10;
+let example2 = 12;
+
+console.log(example1 <= example2)
+// > true
+
+let example1 = 10;
+let example2 = 12;
+example2 = true;
+console.log(typeof example1);
+console.log(typeof example2);
+// > number
+// > boolean
+
+let example1 = 10;
+let example2 = '10';
+
+console.log(typeof example1);
+console.log(typeof example2);
+console.log(example1 == example2);
+console.log(example1 === example2); // === means strictly equals - check for data type
+
+// > number
+// > string
+// > true
+// > false
